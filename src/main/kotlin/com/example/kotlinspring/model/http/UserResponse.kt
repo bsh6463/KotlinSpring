@@ -1,4 +1,4 @@
-package com.example.kotlinspring.model
+package com.example.kotlinspring.model.http
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.PropertyNamingStrategies

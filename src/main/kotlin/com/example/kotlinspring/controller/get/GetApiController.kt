@@ -1,6 +1,6 @@
 package com.example.kotlinspring.controller.get
 
-import com.example.kotlinspring.model.UserRequest
+import com.example.kotlinspring.model.http.UserRequest
 import org.springframework.web.bind.annotation.*
 
 @RestController
@@ -37,7 +37,7 @@ class GetApiController {
     }
 
     @GetMapping("/get-mapping/query-param/object")
-    fun queryParamObject(@ModelAttribute userRequest: UserRequest): UserRequest{
+    fun queryParamObject(@ModelAttribute userRequest: UserRequest): UserRequest {
         println(userRequest.toString())
         return userRequest
     }

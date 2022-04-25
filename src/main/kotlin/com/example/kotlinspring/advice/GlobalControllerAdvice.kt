@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.ExceptionHandler
 import org.springframework.web.bind.annotation.RestControllerAdvice
 
-@RestControllerAdvice(basePackageClasses = [ExceptionApiController::class]) //RestController에 대한 Advice
+//@RestControllerAdvice(basePackageClasses = [ExceptionApiController::class]) //RestController에 대한 Advice
 class GlobalControllerAdvice {
 
     @ExceptionHandler(value = [RuntimeException::class])

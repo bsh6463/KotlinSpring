@@ -1,4 +1,4 @@
-package com.example.kotlinspring.model
+package com.example.kotlinspring.model.http
 
 
 import com.example.kotlinspring.annotaion.StringFormatDateTime

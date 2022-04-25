@@ -1,6 +1,6 @@
 package com.example.kotlinspring.controller.page
 
-import com.example.kotlinspring.model.UserRequest
+import com.example.kotlinspring.model.http.UserRequest
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.ResponseBody

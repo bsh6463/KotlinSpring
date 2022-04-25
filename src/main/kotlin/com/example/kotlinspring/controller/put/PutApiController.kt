@@ -1,8 +1,8 @@
 package com.example.kotlinspring.controller.put
 
-import com.example.kotlinspring.model.Result
-import com.example.kotlinspring.model.UserRequest
-import com.example.kotlinspring.model.UserResponse
+import com.example.kotlinspring.model.http.Result
+import com.example.kotlinspring.model.http.UserRequest
+import com.example.kotlinspring.model.http.UserResponse
 import org.springframework.http.ResponseEntity
 import org.springframework.validation.BindingResult
 import org.springframework.validation.FieldError
