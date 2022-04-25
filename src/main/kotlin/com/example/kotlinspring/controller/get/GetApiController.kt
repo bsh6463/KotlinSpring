@@ -25,7 +25,6 @@ class GetApiController {
 
     @GetMapping("/get-mapping/path-variable2/{name}/{age}")
     fun pathVariable2(@PathVariable(value = "name") _name: String, @PathVariable(name = "age") age: Int): String{
-        val name = "kotlin"
         println("name: ${_name}, age: ${age}")
         return _name + " " + age
     }
@@ -45,7 +44,6 @@ class GetApiController {
     @GetMapping("/get-mapping/query-param/map")
     fun queryParamMap(@RequestParam map: Map<String, Any>): Map<String, Any> {
         println(map)
-        val phoneNumber = map.get("phone-number")
         return map
     }
 }
